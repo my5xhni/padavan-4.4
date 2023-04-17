@@ -12,6 +12,8 @@ on:
         default: 'no'
   release:
     types: [published]
+  watch:
+    types: [started]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
